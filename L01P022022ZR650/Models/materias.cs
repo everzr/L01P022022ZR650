@@ -16,6 +16,6 @@ namespace L01P022022ZR650.Models
 
         [Required]
         [StringLength(1)]
-        public char estado { get; set; }
+        public string estado { get; set; }
     }
 }
